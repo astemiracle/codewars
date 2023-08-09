@@ -1,5 +1,4 @@
-
-# Solution 1
+# solution 1
 def balanced_num(number):
     nums = [int(n) for n in str(number)]
     if len(nums) <= 2:
