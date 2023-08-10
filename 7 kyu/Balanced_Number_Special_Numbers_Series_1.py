@@ -14,9 +14,13 @@ def balanced_num(number):
         else:
             return "Not Balanced"
 
+
+
 # solution 2
 def balanced_num(number):
     return '%sBalanced' % ( 'Not ' if (sum(int(e) for e in str(number)[:(len(str(number))+1)//2-1]) !=  sum(int(e) for e in str(number)[(len(str(number)))//2+1:])) else '' )
+
+
 
 # solution 3
 def balanced_num(number):
