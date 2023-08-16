@@ -1,4 +1,3 @@
-
 def up_array(arr):
     if len(arr) < 1 :
         return None
