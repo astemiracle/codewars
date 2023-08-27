@@ -1,4 +1,4 @@
-# Solution 1
+# solution 1
 def array_diff(a, b):
     if len(b) == 0:
         return a
@@ -9,9 +9,6 @@ def array_diff(a, b):
                 a.remove(i)
     return a
 
-
-
-
-# Solution 2
+# solution 2
 def array_diff(a, b):
     return [i for i in a if i not in b]
